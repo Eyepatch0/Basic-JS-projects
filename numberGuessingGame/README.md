@@ -1,0 +1,3 @@
+Add more funtionality into the game 
+1.Modes(easy, medium, hard)
+...
