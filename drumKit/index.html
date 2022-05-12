@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drumKit</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="keys key-a" data-key="a">A<div class="sound-of-key">CLAP</div></div>
+      <div class="keys key-s" data-key="s">S<div class="sound-of-key">HITHAT</div></div>
+      <div class="keys key-d" data-key="d">D<div class="sound-of-key">KICK</div></div>
+      <div class="keys key-f" data-key="f">F<div class="sound-of-key">OPENHAT</div></div>
+      <div class="keys key-g" data-key="g">G<div class="sound-of-key">BOOM</div></div>
+      <div class="keys key-h" data-key="h">H<div class="sound-of-key">RIDE</div></div>
+      <div class="keys key-j" data-key="j">J<div class="sound-of-key">SNARE</div></div>
+      <div class="keys key-k" data-key="k">K<div class="sound-of-key">TOM</div></div>
+      <div class="keys key-l" data-key="l">L<div class="sound-of-key">TINK</div></div>
+    </div>
+    <audio src="./sounds/clap.wav" data-key="a"></audio>
+    <audio src="./sounds/hihat.wav" data-key="s"></audio>
+    <audio src="./sounds/kick.wav" data-key="d"></audio>
+    <audio src="./sounds/openhat.wav" data-key="f"></audio>
+    <audio src="./sounds/boom.wav" data-key="g"></audio>
+    <audio src="./sounds/ride.wav" data-key="h"></audio>
+    <audio src="./sounds/snare.wav" data-key="j"></audio>
+    <audio src="./sounds/tom.wav" data-key="k"></audio>
+    <audio src="./sounds/tink.wav" data-key="l"></audio>
+  </body>
 </html>

@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* to set background*/
+    /* background-image: linear-gradient(to right bottom, #ac0c43, #930b46, #790e45, #5f1140, #461138); */
+    background-image: url(./ubuntu-gradient-minimalism-linux-wallpaper-preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
+
+.main {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(9, minmax(200px, 100px));
+
+}
+
+.keys {
+    border: .5rem solid #0aeaf2;
+    border-radius: 5%;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black
+}
+
+.sound-of-key {
+    color: oldlace;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.play {
+    transform: scale(1.1);
+    border-color: #0598ed;
+    box-shadow: 0 0 1rem #05a0ed; /*to give glow effect*/
+
+}
